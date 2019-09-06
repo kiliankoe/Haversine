@@ -1,6 +1,6 @@
 # Haversine
 
-Calculate the [Haversine distance](https://en.wikipedia.org/wiki/Haversine_formula) between two coordinate pairs. This does not take into account the fact that the Earth is not a perfect square, but it close enough for some applications. Use CoreLocation's distance API for better results.
+Calculate the [Haversine distance](https://en.wikipedia.org/wiki/Haversine_formula) between two coordinate pairs. This does not take into account the fact that the Earth is not a perfect sphere, but it's close enough for some applications. Use CoreLocation's distance API for better results.
 
 ```swift
 let dresden = Coordinate(latitude: 51.0767496, longitude: 13.6321621)
